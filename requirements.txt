@@ -5,4 +5,5 @@ scikit-learn
 joblib
 librosa
 tsfel
+mysql-connector-python
 streamlit-audiorecorder
