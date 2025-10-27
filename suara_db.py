@@ -6,7 +6,7 @@ import json
 def connect_db():
     try:
         conn = mysql.connector.connect(
-            host='http://103.245.38.100/',
+            host=103.245.38.100,
             user='root',          # ganti sesuai user MySQL-mu
             password='pkmkelompok123',          # isi password MySQL-mu
             database='suara_ai'
@@ -75,3 +75,4 @@ def ambil_semua_rekaman():
         if conn.is_connected():
             cursor.close()
             conn.close()
+
